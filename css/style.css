@@ -277,7 +277,6 @@ input {
   border: 2px solid var(--cor-cinza-nuvem);
   border-radius: 50%;
   background-color: transparent;
-  color: var(--cor-cinza-nuvem);
   font-size: 28px;
   line-height: 1;
   cursor: pointer;
