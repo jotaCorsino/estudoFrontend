@@ -57,3 +57,63 @@ button,
 input {
   font: inherit;
 }
+
+/*
+    ****** Header
+ */
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 64px;
+}
+
+.site-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  list-style: none;
+}
+
+.site-nav-link {
+  font-size: 14px;
+  text-transform: lowercase;
+  transition: color 0.3s ease;
+}
+
+.site-nav-link:hover {
+  color: var(--cor-verde-folha);
+}
+
+.site-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.site-header-link {
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.site-header-link:hover {
+  color: var(--cor-verde-folha);
+}
+
+.site-header-button {
+  font-size: 14px;
+  border: 2px solid var(--cor-cinza-nuvem);
+  border-radius: 8px;
+  padding: 8px 18px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.site-header-button:hover {
+  background-color: var(--cor-verde-folha);
+  color: var(--cor-verde-rio-profundo);
+  border-color: var(--cor-verde-folha);
+}
