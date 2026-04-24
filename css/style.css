@@ -166,10 +166,11 @@ input {
 .search-input:focus,
 .date-input:focus {
   outline: 2px solid var(--cor-verde-folha);
+  outline-offset: 2px;
 }
 
 .location-button,
-.date-intput {
+.date-input {
   height: 48px;
   border: none;
   border-radius: 999px;
