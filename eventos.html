@@ -38,6 +38,94 @@
           próximos dias
         </p>
       </section>
+
+      <section class="events-featured" aria-labelledby="featured-title">
+        <div class="featured-content">
+          <p class="featured-tagline">Destaque da semana</p>
+
+          <h2 id="featured-title">Experiências selecionadas para você</h2>
+
+          <p class="featured-description">
+            Confira eventos em destaque e descubra novas formas de aproveitar a
+            sua região.
+          </p>
+
+          <a href="#" class="featured-link">Ver destaque</a>
+        </div>
+
+        <div
+          class="featured-controls"
+          aria-label="Controles do banner de destaque"
+        >
+          <button
+            type="button"
+            class="featured-control-button"
+            aria-label="Banner anterior"
+          >
+            ‹
+          </button>
+
+          <button
+            type="button"
+            class="featured-control-button"
+            aria-label="Próximo banner"
+          >
+            ›
+          </button>
+        </div>
+      </section>
+      <section class="events-catalog" aria-labelledby="catalog-title">
+        <aside class="events-filters" aria-labelledby="filters-title">
+          <h2 id="filters-title">Filtros</h2>
+
+          <form class="filters-form" action="#" method="get">
+            <div class="filter-group">
+              <label for="filter-search">Buscar evento</label>
+              <input
+                type="search"
+                id="filter-search"
+                name="search"
+                placeholder="Nome do evento"
+              />
+            </div>
+
+            <div class="filter-group">
+              <label for="filter-date">Data</label>
+              <input type="date" id="filter-date" name="date" />
+            </div>
+
+            <div class="filter-group">
+              <label for="filter-category">Categoria</label>
+              <select id="filter-category" name="category">
+                <option value="">Todas</option>
+                <option value="shows">Shows</option>
+                <option value="teatro">Teatro</option>
+                <option value="gastronomia">Gastronomia</option>
+                <option value="esportes">Esportes</option>
+              </select>
+            </div>
+
+            <button type="submit" class="filters-submit-button">
+              Aplicar filtros
+            </button>
+          </form>
+        </aside>
+
+        <section class="events-results" aria-labelledby="catalog-title">
+          <div class="events-results-header">
+            <div>
+              <p class="events-results-tagline">Resultados</p>
+              <h2 id="catalog-title">Todos os eventos</h2>
+            </div>
+
+            <p class="events-results-count">12 eventos encontrados</p>
+          </div>
+
+          <div class="events-results-list">
+            <!-- Os cards de eventos entram aqui nas próximas etapas -->
+          </div>
+        </section>
+      </section>
     </main>
     <footer class="site-footer">
       <div class="site-footer-brand">
