@@ -33,12 +33,16 @@
             id="event-search"
             name="search"
             placeholder="Pesquisar eventos..."
+            aria-label="Pesquisar eventos"
           />
           <button type="button" class="location-button">Localização</button>
           <label for="event-date">Selecionar data</label>
           <input type="date" id="event-date" name="date" class="date-input" />
-          <br />
-          <button type="submit">Pesquisar</button>
+          <div class="search-submit-area">
+            <button type="submit" class="search-submit-button">
+              Pesquisar
+            </button>
+          </div>
         </form>
       </section>
     </main>
