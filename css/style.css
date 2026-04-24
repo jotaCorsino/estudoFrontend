@@ -375,13 +375,15 @@ input {
   bottom: 32px;
   display: inline-flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
+  min-height: 64px;
   border: 1px solid var(--cor-cinza-nuvem);
   border-radius: 999px;
-  padding: 8px 8px 8px 18px;
-  background-color: rgba(0, 0, 0, 0.32);
+  padding: 6px 6px 6px 20px;
+  background-color: rgba(0, 0, 0, 0.42);
   color: var(--cor-cinza-nuvem);
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 500;
   transition:
     background-color 0.3s ease,
     color 0.3s ease,
@@ -392,15 +394,19 @@ input {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   background-color: var(--cor-cinza-nuvem);
   color: var(--cor-verde-rio-profundo);
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 1;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
-.event-card-link span:last-child:hover {
+.event-card-link:hover span:last-child {
   background-color: var(--cor-verde-folha);
   color: var(--cor-verde-rio-profundo);
 }
