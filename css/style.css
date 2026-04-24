@@ -241,7 +241,7 @@ input {
  */
 
 .events-section {
-  padding: 48px 64px 80px;
+  padding: 48px 0 80px;
 }
 
 .events-header {
@@ -250,6 +250,7 @@ input {
   justify-content: space-between;
   gap: 32px;
   margin-bottom: 32px;
+  padding: 0 64px;
 }
 
 .events-tagline {
@@ -300,7 +301,7 @@ input {
   display: flex;
   gap: 16px;
   overflow-x: auto;
-  padding-bottom: 16px;
+  padding: 0 64px 16px;
 }
 
 .event-card {
