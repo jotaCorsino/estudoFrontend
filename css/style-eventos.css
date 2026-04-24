@@ -1,0 +1,27 @@
+@import url("style.css");
+
+:root {
+  /*
+    ****** Cores Principais
+ */
+  --cor-verde-folha: #c2e480;
+  --cor-verde-floresta: #125442;
+  --cor-verde-rio-profundo: #003333;
+  --cor-verde-floresta-profundo: #0f1a17;
+  --cor-cinza-nuvem: #efefef;
+
+  /*
+    ****** Cores B2B
+ */
+  --cor-terracota-ardente: #f2542d;
+  --cor-alabastro: #f9f4f3;
+
+  /*
+    ****** Cores de apoio
+ */
+  --cor-cinza-platina: #d4d4d4;
+  --cor-cinza-prata: #b9b9b9;
+  --cor-verde-carvao: #454e4c;
+
+  --fonte-base: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
