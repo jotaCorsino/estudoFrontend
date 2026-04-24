@@ -29,40 +29,58 @@
     </header>
     <main>
       <section class="events-featured" aria-labelledby="featured-title">
-        <div class="featured-content">
-          <p class="featured-tagline">Destaque da semana</p>
-
-          <h1 id="featured-title">
-            Descubra eventos e experiências perto de você
-          </h1>
-
-          <p class="featured-description">
-            Confira eventos em destaque e descubra novas formas de aproveitar a
-            sua região.
-          </p>
-
-          <a href="#" class="featured-link">Ver destaque</a>
+        <div class="featured-header">
+          <p class="featured-tagline">Eventos em destaque</p>
+          <h1 id="featured-title">Descubra experiências em destaque</h1>
         </div>
 
         <div
-          class="featured-controls"
-          aria-label="Controles do banner de destaque"
+          class="featured-carousel"
+          aria-label="Banners de eventos em destaque"
         >
-          <button
-            type="button"
-            class="featured-control-button"
-            aria-label="Banner anterior"
-          >
-            ‹
-          </button>
+          <article class="featured-slide">
+            <img
+              src="img/banner1.jpg"
+              alt="Banner de divulgação de evento em destaque"
+              class="featured-slide-image"
+            />
 
-          <button
-            type="button"
-            class="featured-control-button"
-            aria-label="Próximo banner"
+            <div class="featured-slide-content">
+              <p class="featured-slide-tagline">Destaque da semana</p>
+
+              <h2 class="featured-slide-title">
+                Experiência especial em destaque
+              </h2>
+
+              <p class="featured-slide-description">
+                Confira uma seleção especial de eventos e experiências para
+                aproveitar nos próximos dias.
+              </p>
+
+              <a href="#" class="featured-link">Ver detalhes</a>
+            </div>
+          </article>
+
+          <div
+            class="featured-controls"
+            aria-label="Controles do banner de destaque"
           >
-            ›
-          </button>
+            <button
+              type="button"
+              class="featured-control-button"
+              aria-label="Banner anterior"
+            >
+              ‹
+            </button>
+
+            <button
+              type="button"
+              class="featured-control-button"
+              aria-label="Próximo banner"
+            >
+              ›
+            </button>
+          </div>
         </div>
       </section>
 
