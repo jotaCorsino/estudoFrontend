@@ -483,9 +483,39 @@ input {
 }
 
 .site-footer-bottom {
-  grid-column: 1/-1;
+  grid-column: 1 / -1;
   border-top: 1px solid var(--cor-verde-floresta);
   padding-top: 24px;
   color: var(--cor-verde-floresta);
   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    padding: 24px;
+  }
+
+  .search-section {
+    padding: 40px 24px 24px;
+  }
+
+  .intro-section {
+    padding: 40px 24px;
+  }
+
+  #intro-title {
+    font-size: 36px;
+  }
+
+  .events-header {
+    padding: 0 24px;
+  }
+
+  .events-list {
+    padding: 0 24px 16px;
+  }
+
+  .event-card {
+    width: 360px;
+  }
 }
