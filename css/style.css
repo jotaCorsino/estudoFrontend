@@ -271,6 +271,7 @@ input {
 }
 
 .events-control-button {
+  color: var(--cor-cinza-nuvem);
   width: 44px;
   height: 44px;
   border: 2px solid var(--cor-cinza-nuvem);
@@ -290,4 +291,94 @@ input {
   background-color: var(--cor-verde-folha);
   color: var(--cor-verde-rio-profundo);
   border-color: var(--cor-verde-folha);
+}
+
+/*
+    ****** Event Card
+ */
+
+.event-list {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 16px;
+}
+
+.event-card {
+  width: 440px;
+  flex: 0 0 auto;
+  padding: 8px;
+  border-radius: 40px;
+  background-color: var(--cor-verde-rio-profundo);
+  color: var(--cor-verde-folha);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.event-card:hover {
+  background-color: var(--cor-verde-folha);
+  color: var(--cor-verde-rio-profundo);
+}
+
+.event-card-info {
+  padding: 24px;
+}
+
+.event-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.event-card-meta-item {
+  border-radius: 999px;
+  padding: 8px 14px;
+  background-color: var(--cor-verde-floresta);
+  color: var(--cor-cinza-nuvem);
+  font-size: 13px;
+  line-height: 1;
+}
+
+.event-card-title {
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.event-card-description {
+  margin-top: 20px;
+  color: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.event-cord-link {
+  display: inline-flex;
+  margin-top: 24px;
+  border-radius: 999px;
+  padding: 10px 18px;
+  background-color: rgba(0, 0, 0, 0.28);
+  color: var(--cor-cinza-nuvem);
+  font-size: 14px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.event-card-link:hover {
+  background-color: var(--cor-verde-rio-profundo);
+  color: var(--cor-verde-folha);
+}
+
+.event-card-media {
+  margin: 0;
+}
+
+.event-card-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 32px;
 }
