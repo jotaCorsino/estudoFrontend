@@ -23,7 +23,25 @@
         <a href="#" class="site-header-button">Login</a>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="search-section" aria-labelledby="search-title">
+        <h1 id="search-title">Encontre eventos perto de você</h1>
+
+        <form class="search-form" action="#" method="get">
+          <input
+            type="search"
+            id="event-search"
+            name="search"
+            placeholder="Pesquisar eventos..."
+          />
+          <button type="button" class="location-button">Localização</button>
+          <label for="event-date">Selecionar data</label>
+          <input type="date" id="event-date" name="date" class="date-input" />
+          <br />
+          <button type="submit">Pesquisar</button>
+        </form>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
