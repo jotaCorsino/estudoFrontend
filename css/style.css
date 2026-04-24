@@ -22,6 +22,10 @@
   --cor-verde-carvao: #454e4c;
 
   --fonte-base: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  /*
+    ****** Espaçamento
+ */
 }
 
 /*
@@ -438,7 +442,7 @@ input {
   grid-template-columns: 2fr 1fr 1fr;
   gap: 48px;
   padding: 64px 64px 32px;
-  background-color: var(--cor-verde-rio-profundo);
+  background-color: var(--cor-verde-floresta-profundo);
 }
 
 .site-footer-logo img {
@@ -483,6 +487,7 @@ input {
 }
 
 .site-footer-bottom {
+  text-align:;
   grid-column: 1 / -1;
   border-top: 1px solid var(--cor-verde-floresta);
   padding-top: 24px;
@@ -490,9 +495,16 @@ input {
   font-size: 14px;
 }
 
-@media (max-width: 768px) {
+/*
+    ****** Responsive
+ */
+@media (max-width: 800px) {
   .site-header {
     padding: 24px;
+  }
+
+  .site-nav-list {
+    gap: 24px;
   }
 
   .search-section {
@@ -503,7 +515,8 @@ input {
     padding: 40px 24px;
   }
 
-  #intro-title {
+  #intro-title,
+  #events-title {
     font-size: 36px;
   }
 
@@ -517,5 +530,90 @@ input {
 
   .event-card {
     width: 360px;
+  }
+}
+
+@media (max-width: 624px) {
+  .site-nav-list {
+    gap: 12px;
+  }
+
+  .search-form {
+    max-width: 100%;
+  }
+
+  .search-input {
+    min-width: 100%;
+  }
+
+  .location-button,
+  .date-input {
+    flex: 1;
+  }
+
+  .events-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .event-card {
+    width: 350px;
+  }
+
+  .site-footer {
+    gap: 32px;
+    padding: 48px 24px 32px;
+  }
+}
+
+@media (max-width: 580px) {
+  .site-header {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .site-nav {
+    order: 3;
+    width: 100%;
+  }
+
+  .site-nav-list {
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .site-header-actions {
+    gap: 16px;
+  }
+
+  .location-button,
+  .date-input,
+  .search-submit-button {
+    width: 100%;
+  }
+
+  #intro-title {
+    font-size: 32px;
+  }
+
+  #events-title {
+    font-size: 32px;
+  }
+
+  .event-card-title {
+    font-size: 40px;
+  }
+
+  .event-card-link {
+    left: 24px;
+    bottom: 24px;
+    min-height: 56px;
+    padding: 6px 6px 6px 18px;
+  }
+
+  .event-card-link span:last-child {
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
   }
 }
