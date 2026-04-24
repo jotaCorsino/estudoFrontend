@@ -428,3 +428,64 @@ input {
   object-fit: cover;
   border-radius: 32px;
 }
+
+/*
+    ****** Footer
+ */
+
+.site-footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 48px;
+  padding: 64px 64px 32px;
+  background-color: var(--cor-verde-rio-profundo);
+}
+
+.site-footer-logo img {
+  width: 96px;
+  height: auto;
+}
+
+.site-footer-description {
+  max-width: 320px;
+  margin-top: 24px;
+  color: var(--cor-verde-floresta);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.site-footer-title {
+  margin-bottom: 16px;
+  color: var(--cor-verde-floresta);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.site-footer-list {
+  display: grid;
+  gap: 8px;
+  list-style: none;
+}
+
+.site-footer-link {
+  color: var(--cor-verde-floresta);
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.site-footer-link:hover {
+  color: var(--cor-verde-folha);
+}
+
+.site-footer-contact {
+  font-style: normal;
+}
+
+.site-footer-bottom {
+  grid-column: 1/-1;
+  border-top: 1px solid var(--cor-verde-floresta);
+  padding-top: 24px;
+  color: var(--cor-verde-floresta);
+  font-size: 14px;
+}
