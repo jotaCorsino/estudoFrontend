@@ -1,0 +1,59 @@
+:root {
+  /*
+    ****** Cores Princippais
+ */
+  --cor-verde-folha: #c2e480;
+  --cor-verde-floresta: #125442;
+  --cor-verde-rio-profundo: #003333;
+  --cor-verde-floresta-profundo: #0f1a17;
+  --cor-cinza-nuvem: #efefef;
+
+  /*
+    ****** Cores B2B
+ */
+  --cor-terracota-ardente: #f2542d;
+  --cor-alabastro: #f9f4f3;
+
+  /*
+    ****** Cores de apoio
+ */
+  --cor-cinza-platina: #d4d4d4;
+  --cor-cinza-prata: #b9b9b9;
+  --cor-verde-carvao: #454e4c;
+
+  --fonte-base: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*
+    ****** Reset geral
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--fonte-base);
+  background-color: var(--cor-verde-floresta-profundo);
+  color: var(--cor-cinza-nuvem);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  font: inherit;
+}
