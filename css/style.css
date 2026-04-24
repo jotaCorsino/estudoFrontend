@@ -487,7 +487,6 @@ input {
 }
 
 .site-footer-bottom {
-  text-align:;
   grid-column: 1 / -1;
   border-top: 1px solid var(--cor-verde-floresta);
   padding-top: 24px;
